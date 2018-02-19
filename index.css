@@ -103,30 +103,33 @@ input[type="text"]::placeholder{
 }
 .principal_post{
 	width: 100%;
-	height: 550px;
-	background-image: url(Oficina.jpg);
+	height: auto;
 	background-size: cover;
-	transition: all .4s; 	
+	transition: all .4s;
+	position: relative;
+
 }
 .principal_post:hover{
-	filter:contrast(110%);
+	filter:contrast(115%);
 }
 .info_principal_post{
 	background-color: #efefef;
 	opacity: 0.85;
 	margin-left: 25px;
+	margin-bottom: 25px;
 	width: 35%;
-	position: relative;
-	top: 300px;
 	padding: 20px 15px;
 	min-width: 380px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 .principal-title{
 	padding-bottom: 20px;
 	margin-bottom: 10px;
 	border-bottom: solid 1px #A4A4A4;  
 }
-.principal-title a{
+.principal-title h1{
 	font-size: 25px;
 	font-family: arial;
 	font-weight: bolder;
